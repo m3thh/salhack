@@ -11,7 +11,7 @@ public class SelecterMenuComponent extends HudComponentItem
     
     public SelecterMenuComponent()
     {
-        super("Selecter", 300, 300);
+        super("Selecter", 100, 100);
         SetHidden(false);
         AddFlag(HudComponentItem.OnlyVisibleInHudEditor);
     }
